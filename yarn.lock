@@ -2263,9 +2263,10 @@ flatted@^3.2.7:
   resolved "https://registry.yarnpkg.com/flatted/-/flatted-3.2.9.tgz#7eb4c67ca1ba34232ca9d2d93e9886e611ad7daf"
   integrity sha512-36yxDn5H7OFZQla0/jFJmbIKTdZAQHngCedGxiMmpNfEZM0sdEeT+WczLQrjK6D7o2aiyLYDnkw0R3JK0Qv1RQ==
 
-"flowise-embed@https://github.com/bhatiyac713/FlowiseChatEmbedCapco.git":
+flowise-embed-capco@*:
   version "1.0.20"
-  resolved "https://github.com/bhatiyac713/FlowiseChatEmbedCapco.git#4040478c746e4443227aab914bc44a17b352d18b"
+  resolved "https://registry.yarnpkg.com/flowise-embed-capco/-/flowise-embed-capco-1.0.20.tgz#41b322476e71aaf10420ba88b658126d4159d42d"
+  integrity sha512-dXZv9OzoxG+CS08EIWvfKbiXnnh+FJe5QWwi6z5fbKTBAp+hZnSe/TY+nKeD04rwOu1TuMcdv/nf3NcJd2Fy6w==
   dependencies:
     "@babel/core" "^7.22.1"
     "@ts-stack/markdown" "^1.4.0"
