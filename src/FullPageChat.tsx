@@ -1,5 +1,5 @@
 import { useEffect, useRef } from 'react'
-import type { BotProps } from 'flowise-embed'
+import type { BotProps } from 'flowise-embed-capco'
 
 type Props = BotProps & {
   style?: React.CSSProperties
@@ -23,8 +23,8 @@ export const FullPageChat = ({ style, className, ...assignableProps }: Props) =>
   const ref = useRef<FullPageChatElement | null>(null)
 
   useEffect(() => {
-    ;(async () => {
-      await import('flowise-embed/dist/web')
+    ; (async () => {
+      await import('flowise-embed-capco/dist/web')
     })()
   }, [])
 
